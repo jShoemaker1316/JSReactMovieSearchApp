@@ -9,8 +9,12 @@ body {
 }
 
 .image-container {
-  position: relative;
-  transition: transform 0.2s;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: min-content;
+  height: min-content;
 }
 
 .image-container:hover {
@@ -25,7 +29,7 @@ body {
 .overlay {
   position: absolute;
   background: rgba(0,0, 0, 0.8);
-  width: 100%;
+  width: 90%;
   transition: 0.5s ease;
   opacity: 0;
   bottom: 0;
